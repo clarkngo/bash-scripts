@@ -1,5 +1,5 @@
 # bash-scripts
-## `git_workflow.sh`
+## `git_add_all_master.sh`
 features:
 - git add all
 - user input for commit description
