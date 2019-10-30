@@ -1,4 +1,7 @@
 # bash-scripts
+## `delete_ds_store_files`
+- delete `.DS_Store` files in directories
+
 ## `git_add_all_master`
 - git add all, commit, push master
 - user input for commit message
@@ -14,3 +17,7 @@
 ## `remote_branch_delete`
 - delete branch in remote repository
 - user input branch name
+
+## `space_to_underscore`
+- replace files and folders names with spaces to underscore
+
