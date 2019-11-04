@@ -34,7 +34,8 @@ pl : programming labs
 bs: bash scripts
 spl : copy configuration for cpp
 pp : python projects
-dcp: daily coding problems"
+dcp: daily coding problems
+swb: run sql workbench"
 
 # running programs
 alias p='python3'
@@ -59,6 +60,7 @@ alias dev='cd /Users/clarkngo/dev'
 alias ci='code-insiders .'
 alias bs='code-insiders /Users/clarkngo/dev/bash-scripts'
 alias lsd='ls -l | grep ^d'
+alias swb='sh /Users/clarkngo/dev/bash-scripts/sqlworkbench.sh'
 
 # cpp repo
 alias pl='code-insiders /Users/clarkngo/dev/cpp-projects/programming-labs-cs555'
