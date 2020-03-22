@@ -61,6 +61,7 @@ alias ci='code-insiders .'
 alias bs='code-insiders /Users/clarkngo/dev/bash-scripts'
 alias lsd='ls -l | grep ^d'
 alias swb='sh /Users/clarkngo/dev/bash-scripts/sqlworkbench.sh'
+alias path='tr ":" "\n" <<< "$PATH"'
 
 # cpp repo
 alias pl='code-insiders /Users/clarkngo/dev/cpp-projects/programming-labs-cs555'
