@@ -44,6 +44,7 @@ alias p='python3'
 alias gm='sh /Users/clarkngo/dev/bash-scripts/git_add_all_master.sh'
 alias g1='sh /Users/clarkngo/dev/bash-scripts/git_add_one_master.sh'
 alias gb='sh /Users/clarkngo/dev/bash-scripts/git_add_all_branch.sh'
+alias gh='sh /Users/clarkngo/dev/bash-scripts/git_open_remote.sh'
 
 # cpp configuration files for a project
 alias spl='sh /Users/clarkngo/dev/bash-scripts/cpp_setup.sh'
