@@ -21,8 +21,9 @@
 ## `space_to_underscore`
 - replace files and folders names with spaces to underscore
 
-## `git_log_push`
+## `git_log_push_master`
 - create changelog and push to master
+- includes current date and time in commit message
 
 ## `git_open_remote_repo`
 - open GitHub remote repository
@@ -51,7 +52,7 @@ alias gm='sh /Users/clarkngo/dev/bash-scripts/git_add_all_master.sh'
 alias g1='sh /Users/clarkngo/dev/bash-scripts/git_add_one_master.sh'
 alias gb='sh /Users/clarkngo/dev/bash-scripts/git_add_all_branch.sh'
 alias gh='sh /Users/clarkngo/dev/bash-scripts/git_open_remote.sh'
-alias gl='sh /Users/clarkngo/dev/bash-scripts/git_log_push.sh'
+alias gl='sh /Users/clarkngo/dev/bash-scripts/git_log_push_master.sh'
 
 # cpp configuration files for a project
 alias spl='sh /Users/clarkngo/dev/bash-scripts/cpp_setup.sh'

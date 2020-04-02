@@ -1,6 +1,6 @@
 #!/bin/bash
 git log --pretty=format:"* %h, %ar : %s" > CHANGELOG.md
 git add CHANGELOG.md
-read -p "Commit description: " desc
-git commit -m "$desc"
+d="update changelog - $(date '+%A %W %Y %X')"
+git commit -m "$d"
 git push origin master
