@@ -1,4 +1,6 @@
 # bash-scripts
+This is a test
+
 ## `delete_ds_store_files`
 - delete `.DS_Store` files in directories
 
