@@ -55,6 +55,7 @@ alias g1='sh /Users/clarkngo/dev/bash-scripts/git_add_one_master.sh'
 alias gb='sh /Users/clarkngo/dev/bash-scripts/git_add_all_branch.sh'
 alias gh='sh /Users/clarkngo/dev/bash-scripts/git_open_remote.sh'
 alias gl='sh /Users/clarkngo/dev/bash-scripts/git_log_push_master.sh'
+alias cdt='sh /Users/clarkngo/dev/bash-scripts/create_directory_timestamp.sh'
 
 # cpp configuration files for a project
 alias spl='sh /Users/clarkngo/dev/bash-scripts/cpp_setup.sh'
