@@ -1,5 +1,24 @@
 # bash-scripts
-This is a test
+
+# S3
+## `backup_s3_bucket_locally`
+- creates timestamp with `"$(date "+%F-%T")"`
+- prepare new directory with path with timestamp
+- create directory with timestamp with does not exist
+- assign bucket
+- execute command: `aws s3 cp s3://$mybucket $new_dir --recursive`
+
+## `upload_current_directory_to_s3`
+- use `./dist/` in your current Angular project
+- execute command: `aws s3 cp $dir s3://$mybucket/ --recursive --exclude "*.jpg"`
+
+
+## `upload_current_directory_to_s3`
+- let user choose if most recent, or 2nd recent
+- execute command: `aws s3 cp $path$dir s3://$mybucket/ --recursive --exclude "*.jpg"`
+
+
+## `check_site_status`
 
 ## `delete_ds_store_files`
 - delete `.DS_Store` files in directories
