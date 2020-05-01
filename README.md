@@ -57,6 +57,11 @@ alias gh='sh /Users/clarkngo/dev/bash-scripts/git_open_remote.sh'
 alias gl='sh /Users/clarkngo/dev/bash-scripts/git_log_push_master.sh'
 alias cdt='sh /Users/clarkngo/dev/bash-scripts/create_directory_timestamp.sh'
 
+# s3 bucket
+alias bs3='sh /Users/clarkngo/dev/bash-scripts/backup_s3_bucket_locally.sh'
+alias ubs3='sh /Users/clarkngo/dev/bash-scripts/upload_local_backup_to_s3.sh'
+alias us3='sh /Users/clarkngo/dev/bash-scripts/upload_current_directory_to_s3.sh'
+
 # cpp configuration files for a project
 alias spl='sh /Users/clarkngo/dev/bash-scripts/cpp_setup.sh'
 
