@@ -1,0 +1,23 @@
+#! /bin/bash
+
+#: Title: printFibonacciNumbers - Print out Fibonacci numbers
+#: Synopsis: printFibonacciNumber TOTAL_NUMBER
+#: Date: 2019-07-21
+#: Version: 1.0
+#: Author: Kevin W.
+#: Options: null
+
+printFibonacciNumbers() { #@ DESCRIPTION: print Fibonacci numbers
+                          #@ USAGE: printFibonacciNumbers TOTAL_NUMBER
+  first=0
+  second=1
+  echo  'The Fibonacci numbers: '
+  for (( i=0; i<$1; i++ )) 
+  do
+    echo -n "$first "
+    fn=$((first + second)) 
+    first=$second 
+    second=$fn 
+  done
+  echo ''
+}
