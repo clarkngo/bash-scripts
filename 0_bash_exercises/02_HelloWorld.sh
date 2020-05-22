@@ -1,10 +1,10 @@
 
 !# /bin/bash
 
-#Marvin Gold
+#Clark Ngo
 #25JUL2019
 #This Script is for Hands-On Practice 5.
-#The goal of this is to understand input output and throughput.  
+#The goal of this is to understand input output and throughput.
 
 printf "Hello %s!\n" "$1" #$1 is a positional parameter. Thould say my name!
 printf "The Value of all the positional parameters: %s\n" "$*" #This should tell the number of conditional parameters that are running.
@@ -14,6 +14,6 @@ printf "The process identification number(PID) is : %s\n" "$$"
 printf "The exit code of the last-executed command is: %s\n" "$?"
 
 # Here's the defined variable that will be used.
-newName="Marvin Gold"
-printf "My name is %s\n" "$newName"  
+newName="Clark Ngo"
+printf "My name is %s\n" "$newName"
 

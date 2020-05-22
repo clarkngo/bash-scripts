@@ -4,7 +4,7 @@
 #: Synopsis: printFibonacciNumber TOTAL_NUMBER
 #: Date: 2019-07-21
 #: Version: 1.0
-#: Author: Kevin W.
+#: Author: Clark Ngo
 #: Options: null
 
 printFibonacciNumbers() { #@ DESCRIPTION: print Fibonacci numbers
@@ -12,12 +12,12 @@ printFibonacciNumbers() { #@ DESCRIPTION: print Fibonacci numbers
   first=0
   second=1
   echo  'The Fibonacci numbers: '
-  for (( i=0; i<$1; i++ )) 
+  for (( i=0; i<$1; i++ ))
   do
     echo -n "$first "
-    fn=$((first + second)) 
-    first=$second 
-    second=$fn 
+    fn=$((first + second))
+    first=$second
+    second=$fn
   done
   echo ''
 }

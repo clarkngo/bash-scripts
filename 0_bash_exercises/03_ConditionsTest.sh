@@ -2,7 +2,7 @@
 #Title		: Conditions Test
 #Date		: 29JUL2019
 #Description	: Tests some conditions for some stuff.
-#Author		: Marvin Gold
+#Author		: Clark Ngo
 #Version 	: 1.0
 #Options	: none
 

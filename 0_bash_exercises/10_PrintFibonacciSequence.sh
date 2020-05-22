@@ -4,7 +4,7 @@
 #Description:	Yes.
 #Date:		7AUG2019
 #Version:	1.0
-#Author:	Marvin Gold
+#Author:	Clark Ngo
 #Options:	null
 
 printFibonacciSequence() {
