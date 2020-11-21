@@ -1,7 +1,7 @@
 #!/bin/bash
 
 mybucket="www.worldwideamerican.net"
-dir="./dist/"
+dir="./build/"
 echo  //////////////////////////
 echo  Uploading folder: $dir
 echo  //////////////////////////
